@@ -10,4 +10,10 @@ public class User {
     public void setId(int id) {
         this.id = id;
     }
+
+    private String name;
+
+    public void setName(String name) {
+        this.name = name;
+    }
 }
